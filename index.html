@@ -82,6 +82,26 @@
             margin-bottom: 20px;
         }
 
+        .contenedor-imagenes {
+            display: grid;
+            /* Crea columnas automáticas del mismo tamaño (máximo 3) */
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+            /* Espacio de separación entre las imágenes */
+            gap: 15px; 
+            /* Margen arriba para que no se pegue al texto de bienvenida */
+            margin-top: 20px; 
+            /* Evita que se encime con el contenido de la derecha */
+            width: 100%; 
+        }
+
+        .contenedor-imagenes img {
+            width: 100%;       /* Hace que la imagen use todo el ancho de su columna */
+            height: 200px;     /* Altura fija para que todas se vean parejas (ajústala a tu gusto) */
+            object-fit: cover; /* Evita que las imágenes se estiren o se deformen */
+            border-radius: 8px;/* Bordes redondeados estéticos */
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombrita suave para que resalten */
+        }
+
         .boxaside {
             grid-column: 2 / 3;
             grid-row: 3;
@@ -128,6 +148,12 @@
         <div class="boxsection">
             <h2>Bienvenido</h2>
             <p>Las canciones las puedes elegir en los botones de arriba.</p>
+
+            <div class="contenedor-imagenes">
+                <img src="imagenes/jarabe de palo.jpg" alt="Portada 1">
+                <img src="imagenes/luis miguel.jpg" alt="Portada 2">
+                <img src="imagenes/hombre g.jpg" alt="Portada 3">
+            </div>
 
         </div>
         <div class="boxaside">
