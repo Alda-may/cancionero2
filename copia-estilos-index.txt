@@ -129,3 +129,36 @@
             align-items: center;
             font-size: 12px;
         }
+
+
+/* copia de suguridad del body index */
+<body>
+    <div class="contenedor">
+        <div class="boxheader">Cancionero</div>
+        <div class="boxnav">
+            <a href="cancion1.html">La Flaca</a>
+            <a href="cancion2.html">Te Quiero</a>
+            <a href="cancion3.html">La Noche más Linda del Mundo</a>
+            <a href="cancion4.html">Lamento Boliviano</a>
+            <a href="cancion5.html">Culpable o No</a>
+        </div>
+
+        <div class="boxsection">
+            <h2>Bienvenido</h2>
+            <p>Las canciones las puedes elegir en los botones de arriba.</p>
+
+            <div class="contenedor-imagenes">
+                <img src="imagenes/jarabe de palo.jpg" alt="Portada 1">
+                <img src="imagenes/luis miguel.jpg" alt="Portada 2">
+                <img src="imagenes/hombre g.jpg" alt="Portada 3">
+            </div>
+
+        </div>
+        <div class="boxaside">
+            <img src="imagenes/Publicidad Coca.jpg" alt="Anuncio Coca-Cola" class="imagen-seccion">
+        </div>
+        <div class="boxfooter">
+            &copy; 2026 Jade Guadalupe Pacheco Uc | Todos los derechos reservados
+        </div>
+    </div>
+</body>
